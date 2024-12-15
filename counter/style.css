@@ -1,0 +1,32 @@
+body {
+    display: flex;              /* Enable flexbox */
+    flex-direction: column;     /* Stack items vertically */
+    justify-content: top ;    /* Center items vertically */
+    align-items: center;        /* Center items horizontally */
+    height: 100vh;              /* Full viewport height */
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: sans-serif;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 50px;
+    font-size: 1.5em;
+    color: azure;
+    background-color: darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: cyan;
+}
