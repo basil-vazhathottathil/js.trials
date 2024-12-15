@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background: linear-gradient(135deg, #baa5d1, #2575fc );
+}
+
+#button{
+    font-size: large;
+    width: 150px;
+    height: 60px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(205, 248, 140);
+}
+
+#button:hover{
+    background-color:greenyellow;
+}
+
+.label{
+    font-size: 40px;
+    margin-top: 20px;
+    display: block;
+ }
